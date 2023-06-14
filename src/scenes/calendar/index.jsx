@@ -85,10 +85,10 @@ const handleEvenetClick = (selected) => {
         select={handleDateClick}
         eventClick = {handleEvenetClick}
         eventsSet={(events) => setCurrentEvenets(events)}
-        initialEvents={[
-            {id: "1234", title: "All-day event",date: "2023-05-14"},
-            {id: "4321", title: "Timed event",date: "2023-06-13"},
-        ]}
+        // initialEvents={[
+        //     {id: "1234", title: "All-day event",date: "2023-06-14"},
+        //     {id: "4321", title: "Timed event",date: "2022-06-13"},
+        // ]}
         />
         
     </Box>
